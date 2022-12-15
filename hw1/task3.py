@@ -15,14 +15,14 @@
 
 num = int(input("Enter a number: "))
 
-if :
-    if :
-        result =
+if num>0:
+    if num%2==0:
+        result = "Positive even number"
     else:
-        result =
-elif :
-    result =
+        result = "Positive odd number"
+elif num<0:
+    result = "Negative number"
 else:
-    result =
+    result = "It is zero"
 
 print(result)

@@ -6,5 +6,9 @@
 
 num = int(input("Enter the number of points: "))
 
-is_next =
+is_next = True if num >= 83 else False
+if num >= 83:
+    is_next = True
+else:
+    is_next = False
 print(is_next)
