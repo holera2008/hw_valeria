@@ -7,9 +7,12 @@
 # 1, 2, 3, 4, 0 и ожидают сумму 20
 
 num = int(input("Enter integer (0 for output): "))
-sum = 0
-while
-    for
+sum_ = 0
+while num > 0:
+    for i in range(num+1):
+        sum_ += i
+    num = int(input('Enter the next integer (0 for output): '))
+print(sum_)
 
 
 # range(10) -> 0, 1, 2, 3, 4, 5, 6, 7, 8, 9

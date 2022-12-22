@@ -15,8 +15,12 @@
 first = int(input("Enter the first integer: "))
 second = int(input("Enter the second integer: "))
 nod = first if first < second else second
-if first < second:
-    nod = first
-else:
-    nod = second
-while
+while nod!=1:
+    if first%nod==0 and second%nod==0:
+        print('the solution is: ', nod)
+        break
+    else:
+        print("the numbers are mutually prime")
+    nod-=1
+
+print(nod)
