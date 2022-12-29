@@ -4,7 +4,22 @@
 
 
 def sum_range(start: int, end: int) -> int:
-    pass
+    sum1 = 0
+    if start > end:
+        x = end
+        while x <= start:
+            sum1 = sum1 + x
+            x = x + 1
+        return(sum1)
+    elif end > start:
+        x = start
+        while x <= end:
+            sum1 = sum1 + x
+            x = x + 1
+        return(sum1)
+    else:
+        return('числа однакові')
 
 
 print(sum_range(10, 0))
+
